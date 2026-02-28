@@ -1,14 +1,14 @@
 export const AboutMeSection = () => {
   const aboutContent = {
-    title: "About Me",
+    title: "About Capybaras",
     paragraphs: [
-      "I'm currently staying in Iloilo city with the dream of breaking into tech. I'm drawn to building structured, reliable systems designed with long-term clarity in mind.",
-      "Outside of tech, I volunteer at local animal shelters — an experience that has shaped my sense of responsibility and patience.",
-      "I'm also inspired by fantasy literature, where thoughtful world-building and strong systems bring stories to life.",
-      "To me, good software — like good stories — is built with care and meant to endure.",
+      "Capybaras are the calmest icons of the animal world, known for their gentle vibe and surprisingly social nature.",
+      "They spend their days lounging near water, making friends with almost every species, and reminding everyone to slow down.",
+      "Their peaceful routines and steady behavior inspire the way I think about building soft, user-friendly digital experiences.",
+      "To me, great software should feel like a capybara moment: warm, welcoming, and stress-free.",
     ],
-    imageUrl: "/base.svg",
-    imageAlt: "Profile picture",
+    imageUrl: "/capy-meme.svg",
+    imageAlt: "Meme capybara with sunglasses",
   };
 
   return (
@@ -41,7 +41,8 @@ export const AboutMeSection = () => {
         </div>
 
         <div
-          className="relative aspect-[1] h-[386px] w-[386px] bg-[url('/base.svg')] bg-[100%_100%]"
+          className="relative aspect-[1] h-[386px] w-[386px] bg-[100%_100%]"
+          style={{ backgroundImage: `url(${aboutContent.imageUrl})` }}
           role="img"
           aria-label={aboutContent.imageAlt}
         />

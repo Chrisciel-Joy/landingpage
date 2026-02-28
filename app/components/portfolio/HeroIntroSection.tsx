@@ -1,4 +1,14 @@
 export const HeroIntroSection = () => {
+  const randomBits = [
+    "Current vibe: capybara calm and zero stress.",
+    "Random quest: find the warmest sunny rock by the pond.",
+    "Fun mode: snack, splash, repeat.",
+    "Side mission: make friends with every creature nearby.",
+    "Bonus thought: great UX should feel as chill as a capybara.",
+  ];
+
+  const randomBit = randomBits[Math.floor(Math.random() * randomBits.length)];
+
   const buttons = [
     {
       id: "projects",
@@ -18,7 +28,7 @@ export const HeroIntroSection = () => {
     <section className="relative flex w-full flex-[0_0_auto] flex-col items-center justify-center gap-9 self-stretch px-[200px] py-12">
       <div className="relative flex w-[1072px] flex-[0_0_auto] flex-col items-center justify-center gap-7">
         <h1 className="relative mt-[-1.00px] w-[870px] text-center font-semibold tracking-[0] text-[#1e2a38] [font-family:'Cormorant_Garamond-SemiBold',Helvetica] text-5xl leading-[normal]">
-          I design and develop reliable systems with a human-centered approach.
+          I build calm, cozy digital experiences inspired by capybara energy.
         </h1>
 
         <img
@@ -29,10 +39,14 @@ export const HeroIntroSection = () => {
         />
 
         <p className="relative self-stretch text-center font-normal tracking-[0] text-[#1e2a38] [font-family:'Manrope-Regular',Helvetica] text-2xl leading-[41px]">
-          I&apos;m a Computer Science graduate from Iloilo who enjoys building
-          structured, maintainable systems that solve real-world problems. With a
-          foundation in software development and a growing interest in UX, I focus on
-          clarity, usability, and long-term thinking.
+          Welcome to my capybara-themed portfolio, where everything is designed to
+          feel friendly, playful, and easy to explore. From cozy UI choices to clear
+          structure, I want each project to feel like a peaceful afternoon by the
+          water with the internet&apos;s favorite giant rodent.
+        </p>
+
+        <p className="relative inline-flex w-fit items-center justify-center self-center rounded-full border border-solid border-[#4e6a57] bg-[#fef8e2] px-5 py-2 text-center font-semibold tracking-[0] text-[#1e2a38] [font-family:'Manrope-SemiBold',Helvetica] text-sm leading-[normal]">
+          ✨ Random Mode: {randomBit}
         </p>
       </div>
 

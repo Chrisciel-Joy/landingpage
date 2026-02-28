@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="386" height="386" viewBox="0 0 386 386" fill="none">
+  <rect width="386" height="386" rx="24" fill="#F4B942" fill-opacity="0.22"/>
+  <rect x="12" y="12" width="362" height="362" rx="20" fill="#FEF8E2" stroke="#1E2A38" stroke-width="3"/>
+
+  <ellipse cx="193" cy="212" rx="118" ry="92" fill="#A5744A"/>
+  <ellipse cx="193" cy="227" rx="90" ry="62" fill="#B98558"/>
+
+  <rect x="129" y="160" width="52" height="28" rx="8" fill="#1E2A38"/>
+  <rect x="205" y="160" width="52" height="28" rx="8" fill="#1E2A38"/>
+  <rect x="181" y="170" width="24" height="8" rx="4" fill="#1E2A38"/>
+
+  <ellipse cx="164" cy="200" rx="7" ry="5" fill="#1E2A38"/>
+  <ellipse cx="222" cy="200" rx="7" ry="5" fill="#1E2A38"/>
+  <ellipse cx="193" cy="218" rx="10" ry="8" fill="#6E462E"/>
+  <path d="M175 238C180 245 187 248 193 248C199 248 206 245 211 238" stroke="#1E2A38" stroke-width="4" stroke-linecap="round"/>
+
+  <text x="193" y="84" text-anchor="middle" fill="#1E2A38" font-size="32" font-family="Arial, Helvetica, sans-serif" font-weight="700">OK I PULL UP</text>
+  <text x="193" y="336" text-anchor="middle" fill="#4E6A57" font-size="20" font-family="Arial, Helvetica, sans-serif" font-weight="700">CAPYBARA ENERGY</text>
+</svg>
