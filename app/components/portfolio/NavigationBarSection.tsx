@@ -1,4 +1,4 @@
-export const NavigationBarSection = (): JSX.Element => {
+export const NavigationBarSection = () => {
   return (
     <header className="relative flex w-full flex-[0_0_auto] items-center justify-between self-stretch border border-solid border-[#463e2e33] bg-[#fef8e2] px-[200px] py-6">
       <h1 className="relative w-fit text-2xl font-bold tracking-[0] text-[#1e2a38] [font-family:'Cormorant_Garamond-Bold',Helvetica] leading-[normal]">

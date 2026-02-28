@@ -1,4 +1,4 @@
-export const ContactInfoSection = (): JSX.Element => {
+export const ContactInfoSection = () => {
   const contactInfo = {
     location: "Iloilo, Philippines",
     email: "gelcabalfin@gmail.com",

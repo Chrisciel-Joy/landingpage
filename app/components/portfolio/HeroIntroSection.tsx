@@ -1,4 +1,4 @@
-export const HeroIntroSection = (): JSX.Element => {
+export const HeroIntroSection = () => {
   const buttons = [
     {
       id: "projects",

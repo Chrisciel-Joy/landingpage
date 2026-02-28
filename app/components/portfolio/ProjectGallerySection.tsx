@@ -1,4 +1,4 @@
-export const ProjectGallerySection = (): JSX.Element => {
+export const ProjectGallerySection = () => {
   const projects = [
     {
       id: 1,

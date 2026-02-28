@@ -4,7 +4,7 @@ import { HeroIntroSection } from "./HeroIntroSection";
 import { NavigationBarSection } from "./NavigationBarSection";
 import { ProjectGallerySection } from "./ProjectGallerySection";
 
-export const Desktop = (): JSX.Element => {
+export const Desktop = () => {
   return (
     <div className="relative flex flex-col items-start overflow-hidden bg-[#f1efe8]">
       <img

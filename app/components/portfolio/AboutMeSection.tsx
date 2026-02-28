@@ -1,4 +1,4 @@
-export const AboutMeSection = (): JSX.Element => {
+export const AboutMeSection = () => {
   const aboutContent = {
     title: "About Me",
     paragraphs: [
